@@ -10,6 +10,11 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import redirect, render, resolve_url
 from urllib.parse import urlencode, parse_qs
 
+try:
+    import urlparse
+except ImportError:
+    import urllib.parse as urlparse
+
 
 from djangooidc.oidc import OIDCClients, OIDCError
 
