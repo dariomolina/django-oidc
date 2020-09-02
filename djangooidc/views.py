@@ -8,8 +8,8 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login as auth_login_view, logout as auth_logout_view
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect, render, resolve_url
-from urlparse import parse_qs
-from urllib import urlencode
+from urllib.parse import urlencode, parse_qs
+
 
 from djangooidc.oidc import OIDCClients, OIDCError
 
