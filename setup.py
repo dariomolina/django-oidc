@@ -31,9 +31,9 @@ setup(
     version=version,
     description="""A Django OpenID Connect (OIDC) authentication backend""",
     long_description=readme + '\n\n' + history,
-    author='Marc-Antoine Gouillart',
-    author_email='marsu_pilami@msn.com',
-    url='https://github.com/marcanpilami/django-oidc',
+    author='Dario Molina',
+    author_email='darvak8@gmail.com',
+    url='https://github.com/dariomolina/django-oidc',
     packages=[
         'djangooidc',
     ],
@@ -53,6 +53,6 @@ setup(
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.7.4',
     ],
 )
